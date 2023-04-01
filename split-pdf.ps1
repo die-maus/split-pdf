@@ -14,8 +14,6 @@
             Dateipfad mit den aufzuteilenden PDF Dateien (auch mehrere)
         .PARAMETER  outputFolder
             Dateipfad für die Ergebnisseiten
-
-            Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
         .EXAMPLE
             split-pdf -inputFolder (Join-Path $PSScriptRoot "pdf_in") -outputFolder (Join-Path $PSScriptRoot "pdf_out") -Verbose
     #>
